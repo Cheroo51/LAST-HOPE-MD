@@ -32,7 +32,7 @@ zokou({
         const audioUrl = apiResult.result.download_url;
         const infoMess = {
           image: { url: videos[0].thumbnail },
-          caption: `*ALPHA-MD SONG PLAYER*\n
+          caption: `*LASTHOPE-MD SONG PLAYER*\n
 ╭───────────────◆
 │✞ *Title:* ${apiResult.result.title}
 │✞ *Quality:* ${apiResult.result.type}
@@ -43,7 +43,7 @@ zokou({
 ╰────────────────◆
 ⦿ *Direct Link:* ${audioUrl}
 ╭────────────────◆
-│ *_Powered by keithkeizzah._*
+│ *_Powered by ENZO._*
 ╰─────────────────◆`
         };
 
@@ -88,7 +88,7 @@ zokou({
         const videoDownloadUrl = apiResult.result.download_url;
         const infoMess = {
           image: { url: videos[0].thumbnail },
-          caption: `*ALPHA-MD VIDEO DOWNLOADER*\n
+          caption: `*LASTHOPE-MD VIDEO DOWNLOADER*\n
 ╭───────────────◆
 │᳆ *Title:* ${apiResult.result.title}
 │᳆ *Duration:* ${videos[0].timestamp}
